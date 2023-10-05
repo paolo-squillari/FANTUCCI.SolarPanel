@@ -15,6 +15,10 @@
 	</Item>
 	<Item Name="private" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		<Item Name="ctl" Type="Folder">
+			<Item Name="states.ctl" Type="VI" URL="../states.ctl"/>
+			<Item Name="vars.ctl" Type="VI" URL="../vars.ctl"/>
+		</Item>
 		<Item Name="MPP.OnOff.vi" Type="VI" URL="../MPP.OnOff.vi"/>
 		<Item Name="MPP.read.vi" Type="VI" URL="../MPP.read.vi"/>
 		<Item Name="MPP.time.vi" Type="VI" URL="../MPP.time.vi"/>
